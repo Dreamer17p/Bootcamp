@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+
+
+body {
+    background-image: url('./assets/jovenes-emprendedores.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0px 15px;
+}
+
+.header-img--eafit img{
+    width: 150px;
+}
+
+.header-content {
+    display: flex;
+    margin-top: 15px;
+   /*  padding-right: 15px; */
+}
+
+.header-content--input {
+    margin-top: 5px;
+}
+
+.header-content--input input {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    color: white;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+}
+
+.header-content div {
+    padding-right: 10px;
+}
+
+.header-content--img {
+    padding-bottom: 2px;
+}
+
+.header-content--img img{
+    width: 40px;
+}
+
+.header-content--menudes {
+    margin-top: 10px;
+}
+
+.header-content--menudes img {
+    width: 25px;
+}
+
+.main {
+    color: white;
+    display: flex;
+    margin-top: 170px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    height: 200px;
+    justify-content: center;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.main-div h2 {
+    padding-bottom: 10px;
+}
+
+.main-div--recursos_button{
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  letter-spacing: 1px;
+  margin-top: 45px; 
+  background-color: darkorchid;
+}
+
+.main-div--recursos_button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: wheat;
+}
